@@ -113,7 +113,7 @@
 
             MyMenu.Attach();
 
-            Tick.OnTick += OnUpdate;
+            Game.OnUpdate += OnUpdate;
             Gapcloser.OnGapcloser += OnGapcloser;
             Interrupter.OnInterrupterSpell += OnInterrupterSpell;
             Drawing.OnDraw += OnDraw;
